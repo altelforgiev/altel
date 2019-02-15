@@ -1,3 +1,9 @@
+
+
+  <iframe src="tip.html" width="150" height="450" scrolling="auto"></iframe>
+
+ </body>
+</html>
 <form method="get" action="http://www.bing.com/search">
 <div style="border:1px solid black;padding:4px;width:20em;">
   <table border="0" align="center" cellpadding="0">

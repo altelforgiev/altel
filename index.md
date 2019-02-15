@@ -1,8 +1,9 @@
-<?php
- //делаем из страницы сайта свежайший "клон" Яндекса
- $str = file_get_contents ('http://yandex.ru');
- echo $str;
-?>
+ #flex-container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+}
 
 <form method="get" action="http://www.bing.com/search">
 <div style="border:1px solid black;padding:4px;width:20em;">

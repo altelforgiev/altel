@@ -1,18 +1,9 @@
-// Прокрутка страницы 
-    $(window).scroll(function () {
-        var goTop = $("#go-top");
-        if ($(this).scrollTop() > 200) {
-            goTop.fadeIn();
-        } else {
-            goTop.fadeOut();
-        }
-    });
-    $('#go-top a').click(function () {
-        $('html, body').animate({
-            scrollTop: 0
-        }, 800);
-        return false;
-    });
+<?php
+ //делаем из страницы сайта свежайший "клон" Яндекса
+ $str = file_get_contents ('http://yandex.ru');
+ echo $str;
+?>
+
 <form method="get" action="http://www.bing.com/search">
 <div style="border:1px solid black;padding:4px;width:20em;">
   <table border="0" align="center" cellpadding="0">
